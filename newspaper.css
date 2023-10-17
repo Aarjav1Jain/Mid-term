@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+h6 {
+    text-align: center;
+}
+.news {
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.container {
+    margin-top: 50px;
+}
+.sidebar {
+    float: none;
+}
+.container {
+    position: relative;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    border: 1px solid #ccc; 
+}
+
+.pins {
+    border-bottom: 1px solid #ccc; 
+    padding: 10px; 
+}
